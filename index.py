@@ -20,3 +20,7 @@ def api():
         bot.sendMessage(chat_id=chat_id, text=update.message.text)
         
     return jsonify({"status": "ok"})
+
+@app.route('/')
+def home():
+    return 'Welcome to Rembot. Send a message @dmrdbot on telegram'
