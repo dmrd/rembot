@@ -6,6 +6,9 @@
 		{ "src": "/(.*)", "dest": "index.py" }
   ],
   "env": {
-    "TELEGRAM_TOKEN": "@telegram-token"
+    "TELEGRAM_TOKEN": "@telegram-token",
+    "REMNOTE_TOKEN": "@remnote-token",
+    "REMNOTE_USER": "@remnote-user",
+    "REMNOTE_PARENT": "@remnote-parent"
   }
 }
